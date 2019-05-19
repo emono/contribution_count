@@ -3,7 +3,6 @@ require 'nokogiri'
 require 'date'
 
 require_relative 'contribution_count/version'
-require_relative 'contribution_count/count'
 require_relative 'contribution_count/client'
 
 module ContributionCount
