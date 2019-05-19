@@ -29,6 +29,10 @@ ContributionCount.new(name).today
 ContributionCount.new(name).yesterday
 # select date
 ContributionCount.new(name).date("yyyy-mm-dd")
+# today contribution?
+ContributionCount.new(name).contribution_today?
+# select date contribution?
+ContributionCount.new(name).contribution("yyyy-mm-dd")?
 ```
 
 ## Contributing
@@ -41,4 +45,8 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the ContributionCount project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/contribution_count/blob/master/CODE_OF_CONDUCT.md).
+Fork it ( https://github.com/emono/contribution_count )
+Create your feature branch (git checkout -b my-new-feature)
+Commit your changes (git commit -am 'Add some feature')
+Push to the branch (git push origin my-new-feature)
+Create a new Pull Request

@@ -14,6 +14,11 @@ module ContributionCount
       count_hash[today]
     end
 
+    def contribution_today?
+      return false if today == 0
+      true
+    end
+
     def yesterday
       yesterday = (Date.today - 1).to_s
       count_hash[yesterday]
@@ -28,6 +33,11 @@ module ContributionCount
       count = count_hash[date]
       raise NoDataError if count.nil?
       count
+    end
+
+    def contribution?(date_str)
+      return false if date(date_str) == 0
+      true
     end
 
     private
