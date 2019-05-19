@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{GitHub contribution count client}
   spec.description   = %q{GitHub contribution count client}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/emono/contribution_count"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.

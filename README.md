@@ -1,5 +1,6 @@
 # ContributionCount
-GitHub contribution count client
+- GitHub contribution count client
+- https://rubygems.org/gems/contribution_count
 
 ## Installation
 
@@ -19,13 +20,13 @@ Or install it yourself as:
 
 ## Usage
 ```ruby
-name = ContributionCount
+name = "github_account_name"
 # 1year
 ContributionCount.new(name).all
 # today
 ContributionCount.new(name).today
 # yesterday
-ContributionCount.new(name).today
+ContributionCount.new(name).yesterday
 # select date
 ContributionCount.new(name).date("yyyy-mm-dd")
 ```
