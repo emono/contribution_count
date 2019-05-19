@@ -32,7 +32,7 @@ ContributionCount.new(name).date("yyyy-mm-dd")
 # today contribution?
 ContributionCount.new(name).contribution_today?
 # select date contribution?
-ContributionCount.new(name).contribution("yyyy-mm-dd")?
+ContributionCount.new(name).contribution?("yyyy-mm-dd")
 ```
 
 ## Contributing
