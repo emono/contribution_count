@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/emono/contribution_count.svg?branch=master)](https://travis-ci.org/emono/contribution_count)
+
 # ContributionCount
 - GitHub contribution count client
 - https://rubygems.org/gems/contribution_count
