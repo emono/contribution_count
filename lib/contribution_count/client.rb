@@ -40,6 +40,12 @@ module ContributionCount
       true
     end
 
+    def today_contribution_notify_line
+      return if today.nil?
+      message = "today_contribution_count: #{today}"
+      Line::Notify::Client.message(message: message)
+    end
+
     private
       def html
         begin

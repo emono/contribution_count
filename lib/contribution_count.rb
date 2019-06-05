@@ -1,6 +1,7 @@
 require 'open-uri'
 require 'nokogiri'
 require 'date'
+require 'line-notify-client'
 
 require_relative 'contribution_count/version'
 require_relative 'contribution_count/client'
